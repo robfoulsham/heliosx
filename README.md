@@ -2,7 +2,7 @@
 
 This is a demo HeliosX Consultation Service app for a technical test, providing API endpoints for
 managing and submitting consultations. The project includes endpoints to retrieve consultations by
-reference and submit answers to determine eligibility.
+reference and to submit answers to determine eligibility.
 
 The code is formatted using the Google Java Style Guide, and includes Swagger UI for API documentation.
 
@@ -12,7 +12,7 @@ The code is formatted using the Google Java Style Guide, and includes Swagger UI
 
 ### Prerequisites
 
-- Docker *OR* Java 23 suing Maven wrapper
+- Docker *OR* Java 23 using Maven wrapper
 
 ### Running the Application
 
