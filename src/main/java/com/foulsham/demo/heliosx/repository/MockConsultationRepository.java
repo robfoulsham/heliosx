@@ -21,7 +21,7 @@ public class MockConsultationRepository {
   private final List<ConsultationSubmissionRequest> consultationSubmissions = new ArrayList<>();
 
   public Optional<Consultation> getConsultationByReference(String reference) {
-    if (reference.equals("GENOVIAN_PEAR")) {
+    if (reference.equals("genovian-pear")) {
       return Optional.of(getPearConsultation());
     }
     return Optional.empty();
@@ -69,7 +69,7 @@ public class MockConsultationRepository {
             false);
     return new Consultation(
         UUID.fromString("f47ac10b-58cc-4372-a567-0e02b2c3d479"),
-        "GENOVIAN_PEAR",
+        "genovian-pear",
         "Genovian Pear Consultation",
         List.of(question0, question1, question2));
   }

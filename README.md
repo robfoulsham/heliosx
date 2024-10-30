@@ -68,7 +68,7 @@ curl:
 
 ```bash
 curl -X 'GET' \
-  'http://localhost:8080/api/consultation/GENOVIAN_PEAR' \
+  'http://localhost:8080/api/consultation/genovian-pear' \
   -H 'accept: application/json'
 ```
 
@@ -76,7 +76,7 @@ Swagger
 endpoint: http://localhost:8080/swagger-ui/index.html#/consultation-controller/getConsultationByReference
 
 ```bash
-GENOVIAN_PEAR
+genovian-pear
 ```
 
 #### 2. Submit Consultation Answers
